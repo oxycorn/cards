@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        .navbar {
+            background-color: #a871ff;
+            overflow: hidden;
+            border-radius: 5px;
+        }
+
+        .navbar a {
+            float: left;
+            display: block;
+            text-align: center;
+            padding: 15px 20px;
+            text-decoration: none;
+            color: #cad3db;
+        }
+
+        .navbar a:hover,
+        .dropdown:hover .dropbtn {
+            background-color: #e4d5ff;
+            border-radius: 15px;
+            color: rgb(41, 39, 39);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            /* Center the cards horizontally */
+            align-items: center;
+            /* Center the cards vertically if needed */
+            margin-top: 20px;
+            /* Add some space between the navbar and the cards */
+        }
+
+        .glass {
+            height: 400px;
+            width: 200px;
+            margin: 100px 50px;
+            /* Add horizontal space between the cards */
+            background: rgba(161, 150, 150, 0.18);
+            border-radius: 16px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            border: 1px solid rgba(161, 150, 150, 0.74);
+        }
+
+        .glass:hover {
+            background: radial-gradient(circle, #ff7cf44d, #c6f2ff2e);
+            transform: scale(1.05);
+        }
+        .text{
+            font-size: 20px;
+            color: #ed77f8;
+            text-align: center;
+            line-height: 400px;
+            text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            -webkit-text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            -moz-text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            -ms-text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            -o-text-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+            filter: drop-shadow(0 2px 5px rgba)
+        }
+    </style>
+</head>
+
+<body>
+    <nav class="navbar">
+        <a href="Home">Home</a>
+        <a href="Content">Content</a>
+        <a href="Service">Service</a>
+        <a href="Get">Get</a>
+    </nav>
+
+    <div class="container">
+        <div class="glass"><H1 class="text">Hy </H1></div>
+        <div class="glass"><H1 class="text">Im </H1></div>
+        <div class="glass"><H1 class="text">Here </H1></div>
+    </div>
+
+</body>
+
+</html>
